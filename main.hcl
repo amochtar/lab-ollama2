@@ -13,16 +13,19 @@ resource "lab" "container_terminal" {
     reference = resource.layout.two_column
 
     tab "terminal" {
+      title  = "Terminal"
       panel  = "terminal"
       target = resource.terminal.shell
     }
 
     tab "editor" {
+      title  = "Code Editor"
       panel  = "terminal"
       target = resource.editor.code
     }
 
     tab "docs" {
+      title  = "Ollama Library"
       panel  = "terminal"
       target = resource.external_website.ollama_library
     }

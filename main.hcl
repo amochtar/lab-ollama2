@@ -17,6 +17,16 @@ resource "lab" "container_terminal" {
       target = resource.terminal.shell
     }
 
+    tab "editor" {
+      panel  = "terminal"
+      target = resource.editor.code
+    }
+
+    tab "docs" {
+      panel  = "terminal"
+      target = resource.external_website.ollama_library
+    }
+
     instructions {
       panel = "instructions"
     }

@@ -13,3 +13,8 @@ resource "editor" "code" {
     directory = "/root"
   }
 }
+
+resource "external_website" "ollama_library" {
+  url                = "https://ollama.com/library"
+  open_in_new_window = true
+}

@@ -31,3 +31,8 @@ ollama pull gemma:2b
 <instruqt-task id="ollama_is_installed"></instruqt-task>
 
 \*\* **Congratulations, you just installed your first LLM! Next, we will use this model to answer some questions.** \*\*
+
+<instruqt-completion
+  heading="Congratualtions!"
+  finish-button-label="Take me home">
+</instruqt-completion>

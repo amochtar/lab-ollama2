@@ -9,8 +9,8 @@ resource "lab" "container_terminal" {
   }
 
   layout "two_column" {
-    default = true
-    reference  = resource.layout.two_column
+    default   = true
+    reference = resource.layout.two_column
 
     tab "terminal" {
       panel  = "terminal"
@@ -24,9 +24,10 @@ resource "lab" "container_terminal" {
 
   content {
     chapter "introduction" {
-      title = "Introduction"
+      title = "Introduction to Ollama"
 
       page "first" {
+        title     = "Installing Ollama"
         reference = resource.page.first
       }
     }

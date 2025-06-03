@@ -28,4 +28,6 @@ Get the Gemma 2B LLM to complete the remainder of the lab. Running the following
 ollama pull gemma:2b
 ```
 
+<instruqt-task id="ollama_is_installed"></instruqt-task>
+
 \*\* **Congratulations, you just installed your first LLM! Next, we will use this model to answer some questions.** \*\*

@@ -1,3 +1,7 @@
+resource "page" "intro" {
+  file = "instructions/intro.md"
+}
+
 resource "page" "first" {
   file = "instructions/page.md"
 

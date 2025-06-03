@@ -39,6 +39,11 @@ resource "lab" "container_terminal" {
     chapter "introduction" {
       title = "Introduction to Ollama"
 
+      page "intro" {
+        title     = "Intro"
+        reference = resource.page.intro
+      }
+
       page "first" {
         title     = "Installing Ollama"
         reference = resource.page.first
